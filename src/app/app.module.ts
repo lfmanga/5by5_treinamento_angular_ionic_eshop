@@ -9,11 +9,13 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AuthGuard } from './guards/auth.guard';
 import { MenuPage } from './pages/menu/menu.page';
+import { NotfoundPage } from './pages/notfound/notfound.page';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuPage
+    MenuPage,
+    NotfoundPage
   ],
   entryComponents: [],
   imports: [
